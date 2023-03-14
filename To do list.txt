@@ -1,0 +1,8 @@
+projekt strony firmy nr. grupy 5
+
+- rozbudowana, wiele poziomowa
+- galeria, komentarze, opinie
+- porządnie odpieprzona
+- opisy i zdjęcia produktów
+- strona główna / o nas / kontakt / galeria
+- audiofile, muzyka, vinyle
