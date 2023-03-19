@@ -27,9 +27,9 @@ nav h1
 nav img
 {
     position: relative;
-    width: 80px;
-    height: 80px;
-    padding: 10px 10px 10px 60px;
+    width: 65px;
+    height: 65px;
+    margin-left: 50px;
 }
 nav a
 {
@@ -49,6 +49,13 @@ footer
     color: white;
     padding: 20px;
     margin: 50px auto 0 auto;
+}
+@keyframes rotate360 {
+    to { transform: rotate(360deg); }
+  }
+#logo
+{
+    animation: 6s rotate360 infinite linear;
 }
 #big_box
 {
@@ -77,9 +84,67 @@ footer
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-items: center;
-    gap: 100px;
+    gap: 65px;
     width: 65%;  
     padding: 10px;
+}
+#top
+{
+    background-color: #AF9B46;
+}
+#top_link
+{
+    color: #AF9B46;
+}
+#middle
+{
+    width: 700px;
+    height: 335px;
+    grid-column: span 2;
+    background-color: #71621e;
+    border-radius: 10px;
+    border-style: none solid;
+    border-color: #AF9B46;
+    border-width: 25px;
+}
+#bottom
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: #AF9B46;
+    border-radius: 10px;
+    border-style: solid none;
+    border-color: #313131;
+    border-width: 15px;
+}
+#album_cover
+{
+    width: 175px;
+    height: 175px;
+    border-radius: 100px;
+}
+#socials
+{
+    width: 110px;
+    height: 90px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+#facebook
+{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+#socials_links
+{
+    width: 250px;
 }
 .sale_ads
 {
@@ -124,7 +189,59 @@ footer
 }
 .news_dashboard
 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     position: relative;
+    justify-items: center;
+    align-items: center;
     background-color: #700929;
-    padding: 100px 200px;
+    width: 335px;
+    height: 255px;
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.news_dashboard ul
+{
+    color: white;
+    grid-column: span 2;
+    font-size: 20px;
+    padding-left: 25px;
+    margin: 0;
+}
+.news_dashboard li
+{
+    font-size: 20px;
+    font-weight: 900;
+    padding: 2px 0;
+}
+.news_dashboard img
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+.news_dashboard a
+{
+    position: relative;
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+    color: #700929;
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+    border-radius: 15px;
+}
+.news_dashboard h2
+{
+    position: relative;
+    color: white;
+    grid-column: span 2;
+    padding: 5px;
+    margin: 0;
 }

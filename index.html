@@ -14,9 +14,9 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
     </head>
-    <body>
+    <body onload="LogoSpin()">
         <nav>
-            <img src="./images/logo.png"/>
+            <img src="./images/logo.png" id="logo"/>
             <h1>Audiophile</h1>
             <a href="#" onmouseover="MenuAnimeOn('_1')" onmouseleave="MenuAnimeOff('_1')">
                 Hip-hop
@@ -73,23 +73,36 @@
 
             </section>
             <section id="right_box">
-                <article class="news_dashboard">
-
+                <article class="news_dashboard" id="top">
+                    <img src="./images/app.svg" style="filter: invert(1);"/>
+                    <a href="#" id="top_link">Pobierz</a>
+                    <h2>Twoje ulubione utwory w jednym miejscu! Już dzisiaj pobierz naszą aplikacje AudioBook</h2>
                 </article>
-                <article class="news_dashboard">
-
+                <article class="news_dashboard" id="top">
+                    <h2>Dlaczego warto używać naszej strony?</h2>
+                    <ul>
+                        <li>Ponad 50 produktów wysokiej jakości</li>
+                        <li>Możliwość wysłuchania fragmentu muzycznych</li>
+                        <li>Synchronizacja Twojej biblioteki muzycznej między urządzeniami</li>
+                    </ul>
                 </article>
-                <article class="news_dashboard">
-
+                <article class="news_dashboard" id="middle">
+                    <img src="./images/believer.jpg" id="album_cover"/>
+                    <img src="./images/human.png" id="album_cover"/>
+                    <audio controls>
+                        <source src="./audio/believer.mp3">
+                    </audio>
+                    <audio controls>
+                        <source src="./audio/human.mp3">
+                    </audio>
                 </article>
-                <article class="news_dashboard">
-
+                <article class="news_dashboard" id="bottom">
+                    <img src="./images/discord.png" id="socials"/>
+                    <a href="#" id="socials_links">Discord - Forum</a>
                 </article>
-                <article class="news_dashboard">
-
-                </article>
-                <article class="news_dashboard">
-
+                <article class="news_dashboard" id="bottom">
+                    <img src="./images/facebook.png" id="facebook"/>
+                    <a href="#" id="socials_links">Facebook - Grupa</a>
                 </article>
             </section>
         </div>
