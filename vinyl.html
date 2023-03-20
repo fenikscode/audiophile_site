@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Audiophile</title>
+        <link rel="stylesheet" href="./styles/index.css">
+        <link rel="stylesheet" href="./styles/additional.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+        <link rel="manifest" href="./favicon/site.webmanifest">
+        <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body onload="LogoSpin()">
+        <nav>
+            <img src="./images/logo.png" id="logo"/>
+            <a href="./index.html" id="title">Audiophile</a>
+            <a href="./hip-hop.html" onmouseover="MenuAnimeOn('_1')" onmouseleave="MenuAnimeOff('_1')">
+                Hip-hop
+            </a>
+            <span class="menuDeco" id="_1">&#9756;</span>
+
+            <a href="./vinyl.html" onmouseover="MenuAnimeOn('_2')" onmouseleave="MenuAnimeOff('_2')">
+                Vinyle
+            </a>
+            <span class="menuDeco" id="_2">&#9756;</span>
+
+            <a href="#"  onmouseover="MenuAnimeOn('_3')" onmouseleave="MenuAnimeOff('_3')">
+                Klasyki
+            </a>
+            <span class="menuDeco" id="_3">&#9756;</span>
+
+            <a href="#" onmouseover="MenuAnimeOn('_4')" onmouseleave="MenuAnimeOff('_4')">
+                Jazz
+            </a>
+            <span class="menuDeco" id="_4">&#9756;</span>
+
+            <a href="#" onmouseover="MenuAnimeOn('_5')" onmouseleave="MenuAnimeOff('_5')">
+                Rock
+            </a>
+            <span class="menuDeco" id="_5">&#9756;</span>
+
+            <a href="#" onmouseover="MenuAnimeOn('_6')" onmouseleave="MenuAnimeOff('_6')">
+                O nas
+            </a>
+            <span class="menuDeco" id="_6">&#9756;</span>
+
+        </nav>
+        <div class="products_box">
+            <section>
+                <img src="./images/thriller.jpg" />
+                <ul>
+                    <h2>Thriller</h3>
+                    <li>Wykonawca: Jackson Michael</li>
+                    <li>Rok nagrania: 2018</li>
+                    <li>Dystrybutor: Sony Music Entertainment</li>
+                    <li>Nośnik: Płyta Analogowa</li>
+                </ul>
+            </section>
+            <section>
+                <img src="./images/wodecki.webp" />
+                <ul>
+                    <h2>The Best: Zacznij od Bacha</h3>
+                    <li>Wykonawca: Wodecki Zbigniew</li>
+                    <li>Rok nagrania: 2017</li>
+                    <li>Dystrybutor: MTJ Agencja Artystyczna</li>
+                    <li>Nośnik: Płyta Analogowa</li>
+                </ul>
+            </section>
+            <section>
+                <img src="./images/abbey_road.jpeg" />
+                <ul>
+                    <h2>Abbey Road</h3>
+                    <li>Wykonawca: THE BEATLES</li>
+                    <li>Rok nagrania: 2019</li>
+                    <li>Dystrybutor: Apple Records</li>
+                    <li>Nośnik: Płyta Analogowa</li>
+                </ul>
+            </section>
+            <section>
+                <img src="./images/guns_n_roses.jpg" />
+                <ul>
+                    <h2>Greatest Hits</h3>
+                    <li>Wykonawca: Guns N' Roses</li>
+                    <li>Rok nagrania: 2020</li>
+                    <li>Dystrybutor: Universal Music Polska</li>
+                    <li>Nośnik: Płyta Analogowa</li>
+                </ul>
+            </section>
+        </div>
+        <footer>Strona internetowa Audiophile &copy; jest własnościom Pizone. Wszelkie prawa zastrzeżone!</footer>
+        <script src="./js/animation.js"></script>
+    </body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Audiophile</title>
+        <link rel="stylesheet" href="./styles/index.css">
+        <link rel="stylesheet" href="./styles/additional.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+        <link rel="manifest" href="./favicon/site.webmanifest">
+        <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body onload="LogoSpin()">
+        <nav>
+            <img src="./images/logo.png" id="logo"/>
+            <a href="./index.html" id="title">Audiophile</a>
+            <a href="./hip-hop.html" onmouseover="MenuAnimeOn('_1')" onmouseleave="MenuAnimeOff('_1')">
+                Hip-hop
+            </a>
+            <span class="menuDeco" id="_1">&#9756;</span>
+
+            <a href="./vinyl.html" onmouseover="MenuAnimeOn('_2')" onmouseleave="MenuAnimeOff('_2')">
+                Vinyle
+            </a>
+            <span class="menuDeco" id="_2">&#9756;</span>
+
+            <a href="#"  onmouseover="MenuAnimeOn('_3')" onmouseleave="MenuAnimeOff('_3')">
+                Klasyki
+            </a>
+            <span class="menuDeco" id="_3">&#9756;</span>
+
+            <a href="#" onmouseover="MenuAnimeOn('_4')" onmouseleave="MenuAnimeOff('_4')">
+                Jazz
+            </a>
+            <span class="menuDeco" id="_4">&#9756;</span>
+
+            <a href="#" onmouseover="MenuAnimeOn('_5')" onmouseleave="MenuAnimeOff('_5')">
+                Rock
+            </a>
+            <span class="menuDeco" id="_5">&#9756;</span>
+
+            <a href="#" onmouseover="MenuAnimeOn('_6')" onmouseleave="MenuAnimeOff('_6')">
+                O nas
+            </a>
+            <span class="menuDeco" id="_6">&#9756;</span>
+
+        </nav>
+        <div class="products_box">
+            <section>
+                <img src="./images/in_da_club.jpg" />
+                <ul>
+                    <h2>In da Club</h3>
+                    <li>Wykonawca: 50 Cent</li>
+                    <li>Album: Get Rich or Die Tryin</li>
+                    <li>Rok wydania: 2003</li>
+                    <li>Kompozytor: Dr. Dre & Mike Elizondo</li>
+                </ul>
+            </section>
+            <section>
+                <img src="./images/lose_yourself.jpeg" />
+                <ul>
+                    <h2>Lose Yourself</h3>
+                    <li>Wykonawca: Eminem</li>
+                    <li>Album: Music from and Inspired by the Motion Picture 8 Mile</li>
+                    <li>Rok wydania: 2002</li>
+                    <li>Producent: Eminem, Jeff Bass, Luis Resto</li>
+                </ul>
+            </section>
+            <section>
+                <img src="./images/alright.png" />
+                <ul>
+                    <h2>Alright</h3>
+                    <li>Wykonawca: Kendrick Lamar</li>
+                    <li>Album: To Pimp a Butterfly</li>
+                    <li>Rok wydania: 2015</li>
+                </ul>
+            </section>
+            <section>
+                <img src="./images/99_problems.jpeg" />
+                <ul>
+                    <h2>99 Problems</h3>
+                    <li>Wykonawca: Jay-Z</li>
+                    <li>Album: The Black Album</li>
+                    <li>Rok wydania: 2003</li>
+                </ul>
+            </section>
+            <section>
+                <img src="./images/strictly_bussiness.jpg" />
+                <ul>
+                    <h2>Strictly Business</h3>
+                    <li>Wykonawca: EPMD</li>
+                    <li>Album: Strictly Business</li>
+                    <li>Rok wydania: 1988</li>
+                </ul>
+            </section>
+        </div>
+        <footer>Strona internetowa Audiophile &copy; jest własnościom Pizone. Wszelkie prawa zastrzeżone!</footer>
+        <script src="./js/animation.js"></script>
+    </body>
+</html>
