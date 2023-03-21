@@ -17,6 +17,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    gap: 20px;
     position: relative;
     width: 75%;
 }
@@ -45,4 +46,18 @@ section li
     font-weight: 900;
     font-style: italic;
     color: #313131;
+}
+section a
+{
+    position: relative;
+    width: 120px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(158, 14, 43);
+    margin-left: 40px;
+    padding: 15px;
+    border-radius: 10px;
 }
