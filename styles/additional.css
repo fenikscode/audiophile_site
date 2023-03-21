@@ -1,6 +1,81 @@
+#_1_
+{
+    background-color: #511730;
+}
+#_2_
+{
+    background-color: #8E443D;
+}
+#_3_
+{
+    background-color: #320A28;
+}
+#_4_
+{
+    background-color: #CB9173;
+}
 #vinyl_link
 {
     grid-area: 2 / 2;
+}
+#section_title
+{
+    position: relative;
+    grid-column: span 2;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    color: #313131;
+    padding: 20px;
+    border-style: none double;
+    border-width: 10px;
+    border-color: #313131;
+    border-radius: 20px;
+}
+#about_box
+{
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 40px;
+    width: 80%;
+    margin: 50px auto 0 auto;
+    padding: 10px 20px;
+}
+#about_box section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 450px;
+    height: 250px;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#about_box section h1
+{
+    position: relative;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 15px;
+    margin: 0;
+}
+#about_box section li
+{
+    position: relative;
+    color: white;
+    padding: 10px;
+}
+#about_box section ul
+{
+    padding: 10px;
 }
 .products_box
 {
@@ -24,6 +99,21 @@
     gap: 20px;
     position: relative;
     width: 75%;
+}
+.comments
+{
+    display: grid;
+    position: relative;
+    align-items: center;
+    grid-template-columns: 0.5fr 1fr;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.comments img
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    grid-row: span 2;
 }
 section img
 {
